@@ -1,0 +1,4 @@
+p = mat + 1;    // Válida, armazena no ponteiro a posicao do segundo elemento do vetor
+p = mat++;
+p = ++mat;
+x = (*mat)++;   // Válida, coloca na variável "x" o valor do primeiro elemento do vetor somado com 1

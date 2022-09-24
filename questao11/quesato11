@@ -1,0 +1,8 @@
+aloha[2] = value; // Válido, é somente uma atribuição de valores
+scanf("%f", &aloha); // Válido, apenas armazena na primeira posicao do array o valor digitado
+aloha = value"; // Inválido por causa da aspas duplas no fim
+printf("%f", aloha); //Inválido, não será passado um parâmetro do tipo float
+coisas[4][4] = aloha[3]; // Válido, apenas atribuição de valores normal
+coisas[5] = aloha; // Válido, apenas atribuição de valores normal
+pf = value; // Inválido, pf só recebe endereços de memória, pois é um ponteiro
+pf = aloha; // Válido, atribuição de valores do tipo que ponteiro recebe, ou seja, endereço de memória

@@ -1,0 +1,8 @@
+p = i;  // Ilegal, pois "p" é ponteiro e recebe somente endereço de memória 
+q = &j;
+p = &*&i;
+i = (*&)j;  //Ilegal por causa do ()
+i = *&j;
+i = *&*&j;
+q = *p; // Ilegal, pos "q" é ponteiro e recebe somente endereço de memória
+i = (*p)++ + *q;

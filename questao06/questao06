@@ -1,0 +1,4 @@
+*(pulo + 2);    // Valor do terceiro elemento do vetor
+*(pulo + 4);
+pulo + 4;
+pulo + 2;   // posição na memória do elemento da terceira posicao
